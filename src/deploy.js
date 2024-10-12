@@ -1,6 +1,6 @@
 const ethers = require('ethers');
-const { TestTxAbi } = require('./abis/TestTx.abi');
-const { TestTxBytecode } = require('./bytecodes/TestTx.bytecode');
+const { TestTxAbi } = require('../abis/TestTx.abi');
+const { TestTxBytecode } = require('../bytecodes/TestTx.bytecode');
 const env = require('./env');
 
 const TESTNET_URL = 'https://rpc.sepolia.org';

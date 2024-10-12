@@ -1,5 +1,5 @@
 const ethers = require('ethers');
-const env = require('./env');
+const env = require('../env');
 
 const TESTNET_URL = 'https://rpc.sepolia.org';
 const providerSepolia = new ethers.JsonRpcProvider(TESTNET_URL);

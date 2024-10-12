@@ -1,6 +1,6 @@
 const { ethers } = require('ethers');
-const env = require('./env');
-const { TestTxAbi } = require('./abis/TestTx.abi');
+const env = require('../env');
+const { TestTxAbi } = require('../abis/TestTx.abi');
 
 const main = async () => {
   const TESTNET_URL = 'https://rpc.sepolia.org';
