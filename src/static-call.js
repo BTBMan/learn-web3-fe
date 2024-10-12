@@ -9,7 +9,6 @@ const providerETH = new ethers.JsonRpcProvider(MAINNET_URL);
 
 const wallet = new ethers.Wallet(env.BTBManKey, providerETH);
 
-// 创建 DAI 合约
 const abiDAI = [
   'function balanceOf(address) public view returns(uint)',
   'function transfer(address, uint) public returns (bool)',

@@ -11,7 +11,6 @@ const wallet = new ethers.Wallet(env.BTBManKey, providerETH);
 
 const selectorERC721 = '0x80ac58cd';
 
-// 创建 DAI 合约
 const abiERC721 = [
   'function name() view returns (string)',
   'function symbol() view returns (string)',
